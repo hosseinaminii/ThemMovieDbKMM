@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+MERGED from [:shared] /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/hosseinamini/.gradle/caches/transforms-3/87e1d32ef5d397d45ff4e1264147a162/transformed/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/hosseinamini/.gradle/caches/transforms-3/b9e2652577654b11fd9e41f863e79e4e/transformed/constraintlayout-2.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/f3cc1a3e003bbdb0a96e00f57b2c2543/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/56ab615b010e27d2bd9d63f688f4b987/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/32cf93353e7d4b70880de41664a54e7e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/3cb546fae92a5fb43e68543061229117/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/2ab3082075f6943122873ac86231cd53/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/48020c5ed273d28f66756c4b5c153e8f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/c7fff629e888cd1c23a6a35cdf2d4697/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/3bbd875fabdf4241cd1baa5202256cf9/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/a4a766969392e5d355611abda6b117d5/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/bf4959ce0117fac85929f6e7e838c40c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ccf39a769e5169761bb9ed1a5be6dee6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/66253b85b4189563bf8e24f61c03cdad/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/8bb3e2bb3fb67deed027e16ed7733a67/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ad453ad5a08c081465bc3bfcc1c1f5aa/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f904f8ff38566070d1428186ee797437/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/b571f1604716cf682a2a93dba2ab8510/transformed/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/f936d6022b12e9785a41a8e18fd156a5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/6b24fee1c189039e467473b75e3fe92e/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/8100f05e5933c4571b9a4145505f92d3/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/718e805a58d5e4b022ac7622aec54604/transformed/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/81bfa42904d524f28228246dbf6824fc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1ff8004dfddb308738bf9f0766a36500/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/cc35499641fe5d0032a24330c32a333e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f03c0cf0a3eb394c264b81287b0acc18/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1921be466359ed0e6766bf49dd80d27a/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+	package
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:70-113
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:1-14:12
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:3:5-13:19
+MERGED from [com.google.android.material:material:1.2.1] /Users/hosseinamini/.gradle/caches/transforms-3/87e1d32ef5d397d45ff4e1264147a162/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/hosseinamini/.gradle/caches/transforms-3/87e1d32ef5d397d45ff4e1264147a162/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/hosseinamini/.gradle/caches/transforms-3/b9e2652577654b11fd9e41f863e79e4e/transformed/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/hosseinamini/.gradle/caches/transforms-3/b9e2652577654b11fd9e41f863e79e4e/transformed/constraintlayout-2.0.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/f936d6022b12e9785a41a8e18fd156a5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/f936d6022b12e9785a41a8e18fd156a5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:5:13-39
+	android:allowBackup
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:4:13-40
+	android:theme
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:6:13-44
+activity#com.example.themoviedb.androidApp.MainActivity
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:7:9-12:20
+	android:name
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:8:13-11:29
+action#android.intent.action.MAIN
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:9:17-68
+	android:name
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:9:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:10:17-76
+	android:name
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml:10:27-74
+uses-sdk
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared] /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/shared/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/hosseinamini/.gradle/caches/transforms-3/87e1d32ef5d397d45ff4e1264147a162/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/hosseinamini/.gradle/caches/transforms-3/87e1d32ef5d397d45ff4e1264147a162/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/hosseinamini/.gradle/caches/transforms-3/b9e2652577654b11fd9e41f863e79e4e/transformed/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] /Users/hosseinamini/.gradle/caches/transforms-3/b9e2652577654b11fd9e41f863e79e4e/transformed/constraintlayout-2.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/f3cc1a3e003bbdb0a96e00f57b2c2543/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/f3cc1a3e003bbdb0a96e00f57b2c2543/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/56ab615b010e27d2bd9d63f688f4b987/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/56ab615b010e27d2bd9d63f688f4b987/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/32cf93353e7d4b70880de41664a54e7e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/32cf93353e7d4b70880de41664a54e7e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/3cb546fae92a5fb43e68543061229117/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/3cb546fae92a5fb43e68543061229117/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/2ab3082075f6943122873ac86231cd53/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/hosseinamini/.gradle/caches/transforms-3/2ab3082075f6943122873ac86231cd53/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/48020c5ed273d28f66756c4b5c153e8f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/48020c5ed273d28f66756c4b5c153e8f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/c7fff629e888cd1c23a6a35cdf2d4697/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/c7fff629e888cd1c23a6a35cdf2d4697/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/3bbd875fabdf4241cd1baa5202256cf9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/3bbd875fabdf4241cd1baa5202256cf9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/a4a766969392e5d355611abda6b117d5/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/a4a766969392e5d355611abda6b117d5/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/bf4959ce0117fac85929f6e7e838c40c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/bf4959ce0117fac85929f6e7e838c40c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ccf39a769e5169761bb9ed1a5be6dee6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ccf39a769e5169761bb9ed1a5be6dee6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/66253b85b4189563bf8e24f61c03cdad/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/66253b85b4189563bf8e24f61c03cdad/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/8bb3e2bb3fb67deed027e16ed7733a67/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/8bb3e2bb3fb67deed027e16ed7733a67/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ad453ad5a08c081465bc3bfcc1c1f5aa/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/ad453ad5a08c081465bc3bfcc1c1f5aa/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f904f8ff38566070d1428186ee797437/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f904f8ff38566070d1428186ee797437/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/b571f1604716cf682a2a93dba2ab8510/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/b571f1604716cf682a2a93dba2ab8510/transformed/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/hosseinamini/.gradle/caches/transforms-3/0d608cf45547c794a612f8a09ce8d31d/transformed/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/f936d6022b12e9785a41a8e18fd156a5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/f936d6022b12e9785a41a8e18fd156a5/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/6b24fee1c189039e467473b75e3fe92e/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/6b24fee1c189039e467473b75e3fe92e/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/8100f05e5933c4571b9a4145505f92d3/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hosseinamini/.gradle/caches/transforms-3/8100f05e5933c4571b9a4145505f92d3/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/718e805a58d5e4b022ac7622aec54604/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/718e805a58d5e4b022ac7622aec54604/transformed/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/81bfa42904d524f28228246dbf6824fc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/81bfa42904d524f28228246dbf6824fc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1ff8004dfddb308738bf9f0766a36500/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1ff8004dfddb308738bf9f0766a36500/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/cc35499641fe5d0032a24330c32a333e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/cc35499641fe5d0032a24330c32a333e/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f03c0cf0a3eb394c264b81287b0acc18/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/f03c0cf0a3eb394c264b81287b0acc18/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1921be466359ed0e6766bf49dd80d27a/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/hosseinamini/.gradle/caches/transforms-3/1921be466359ed0e6766bf49dd80d27a/transformed/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/AndroidManifest.xml

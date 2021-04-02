@@ -1,0 +1,2 @@
+com/example/themoviedb/shared/BuildConfig.java
+ com.example.themoviedb.shared.BuildConfig
