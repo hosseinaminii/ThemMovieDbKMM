@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/build/intermediates/res/merged/debug/layout_movie_item.xml.flat",
+        "source": "/Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/res/layout/movie_item.xml"
+    },
+    {
         "merged": "/Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/hosseinamini/Documents/Workspace/Android/Practice/KMM/TheMovieDbApp/androidApp/src/main/res/layout/activity_main.xml"
     }

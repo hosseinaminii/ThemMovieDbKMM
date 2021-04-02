@@ -1,5 +1,10 @@
 package com.example.themoviedb.shared.entity
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class MovieList(
-    val results: List<Movie>
+    @SerialName("results")
+    val movies: List<Movie>
 )

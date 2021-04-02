@@ -9,7 +9,7 @@ data class Movie(
     @SerialName("release_date")
     val releaseData: String,
     @SerialName("vote_average")
-    val voteAverage: Int,
+    val voteAverage: Float,
     val overview: String,
     @SerialName("poster_path")
     val posterPath: String
