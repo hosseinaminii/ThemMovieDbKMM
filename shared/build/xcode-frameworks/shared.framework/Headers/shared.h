@@ -157,21 +157,23 @@ __attribute__((swift_name("Platform")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Movie")))
 @interface SharedMovie : SharedBase
-- (instancetype)initWithTitle:(NSString *)title releaseData:(NSString *)releaseData voteAverage:(int32_t)voteAverage overview:(NSString *)overview posterPath:(NSString *)posterPath __attribute__((swift_name("init(title:releaseData:voteAverage:overview:posterPath:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (instancetype)initWithId:(int64_t)id title:(NSString *)title releaseData:(NSString *)releaseData voteAverage:(float)voteAverage overview:(NSString *)overview posterPath:(NSString *)posterPath __attribute__((swift_name("init(id:title:releaseData:voteAverage:overview:posterPath:)"))) __attribute__((objc_designated_initializer));
+- (int64_t)component1 __attribute__((swift_name("component1()")));
 - (NSString *)component2 __attribute__((swift_name("component2()")));
-- (int32_t)component3 __attribute__((swift_name("component3()")));
-- (NSString *)component4 __attribute__((swift_name("component4()")));
+- (NSString *)component3 __attribute__((swift_name("component3()")));
+- (float)component4 __attribute__((swift_name("component4()")));
 - (NSString *)component5 __attribute__((swift_name("component5()")));
-- (SharedMovie *)doCopyTitle:(NSString *)title releaseData:(NSString *)releaseData voteAverage:(int32_t)voteAverage overview:(NSString *)overview posterPath:(NSString *)posterPath __attribute__((swift_name("doCopy(title:releaseData:voteAverage:overview:posterPath:)")));
+- (NSString *)component6 __attribute__((swift_name("component6()")));
+- (SharedMovie *)doCopyId:(int64_t)id title:(NSString *)title releaseData:(NSString *)releaseData voteAverage:(float)voteAverage overview:(NSString *)overview posterPath:(NSString *)posterPath __attribute__((swift_name("doCopy(id:title:releaseData:voteAverage:overview:posterPath:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t id __attribute__((swift_name("id")));
 @property (readonly) NSString *overview __attribute__((swift_name("overview")));
 @property (readonly) NSString *posterPath __attribute__((swift_name("posterPath")));
 @property (readonly) NSString *releaseData __attribute__((swift_name("releaseData")));
 @property (readonly) NSString *title __attribute__((swift_name("title")));
-@property (readonly) int32_t voteAverage __attribute__((swift_name("voteAverage")));
+@property (readonly) float voteAverage __attribute__((swift_name("voteAverage")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -186,13 +188,22 @@ __attribute__((swift_name("Movie.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MovieList")))
 @interface SharedMovieList : SharedBase
-- (instancetype)initWithResults:(NSArray<SharedMovie *> *)results __attribute__((swift_name("init(results:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMovies:(NSArray<SharedMovie *> *)movies __attribute__((swift_name("init(movies:)"))) __attribute__((objc_designated_initializer));
 - (NSArray<SharedMovie *> *)component1 __attribute__((swift_name("component1()")));
-- (SharedMovieList *)doCopyResults:(NSArray<SharedMovie *> *)results __attribute__((swift_name("doCopy(results:)")));
+- (SharedMovieList *)doCopyMovies:(NSArray<SharedMovie *> *)movies __attribute__((swift_name("doCopy(movies:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<SharedMovie *> *results __attribute__((swift_name("results")));
+@property (readonly) NSArray<SharedMovie *> *movies __attribute__((swift_name("movies")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("MovieList.Companion")))
+@interface SharedMovieListCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -214,6 +225,7 @@ __attribute__((swift_name("Api.Companion")))
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
+@property (readonly) NSString *API_KEY __attribute__((swift_name("API_KEY")));
 @property (readonly) NSString *MOVIES_URL __attribute__((swift_name("MOVIES_URL")));
 @end;
 

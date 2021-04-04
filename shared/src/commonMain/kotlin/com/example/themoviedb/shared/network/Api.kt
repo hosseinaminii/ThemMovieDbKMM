@@ -10,8 +10,10 @@ import kotlinx.serialization.json.Json
 class Api {
 
     companion object {
+        // Get your Api_Key here https://developers.themoviedb.org/3/getting-started/introduction
+        const val API_KEY = "YOUR_API_KEY"
         const val MOVIES_URL =
-            "https://api.themoviedb.org/3/movie/upcoming?api_key=4a150210769c9f31d61a1a8ead06ca56&language=en-US&page=1"
+            "https://api.themoviedb.org/3/movie/upcoming?api_key=$API_KEY&language=en-US&page=1"
     }
 
     private val httpClient = HttpClient {

@@ -5,6 +5,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Movie(
+    val id: Long,
     val title: String,
     @SerialName("release_date")
     val releaseData: String,
