@@ -139,22 +139,6 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Greeting")))
-@interface SharedGreeting : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)greeting __attribute__((swift_name("greeting()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Platform")))
-@interface SharedPlatform : SharedBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (readonly) NSString *platform __attribute__((swift_name("platform")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Movie")))
 @interface SharedMovie : SharedBase
 - (instancetype)initWithId:(int64_t)id title:(NSString *)title releaseData:(NSString *)releaseData voteAverage:(float)voteAverage overview:(NSString *)overview posterPath:(NSString *)posterPath __attribute__((swift_name("init(id:title:releaseData:voteAverage:overview:posterPath:)"))) __attribute__((objc_designated_initializer));

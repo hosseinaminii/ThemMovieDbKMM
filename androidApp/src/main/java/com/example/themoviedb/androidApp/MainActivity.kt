@@ -2,8 +2,6 @@ package com.example.themoviedb.androidApp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.themoviedb.shared.Greeting
-import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView

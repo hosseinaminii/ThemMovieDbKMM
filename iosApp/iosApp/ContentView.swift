@@ -2,12 +2,6 @@ import SwiftUI
 import shared
 
 
-//$(SRCROOT)/../shared/build/xcode-frameworks
-
-func greet() -> String {
-    return Greeting().greeting()
-}
-
 struct ContentView: View {
     
     @ObservedObject private(set) var viewModel: ViewModel
@@ -15,38 +9,35 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView {
-            listView().navigationTitle("The MovieDb")
+            createGrid().navigationTitle("The MovieDb")
         }
         
     }
     
-    private func listView() -> AnyView {
+    private func createGrid() -> AnyView {
         switch viewModel.state {
         case .loading:
             return AnyView(Text("Loading...").multilineTextAlignment(.center))
             
-        case .success(let movies):
-            return getGrid(movies: movies)
+        case .success(let movies): do {
+            let columnWidth = UIScreen.main.bounds.size.width / 2
+            let columns = [GridItem(.fixed(columnWidth)), GridItem(.fixed(columnWidth))]
+            return AnyView(
+                ScrollView {
+                    LazyVGrid(columns: columns, spacing: 10) {
+                        ForEach(movies, id: \.self) { movie in
+                            MovieItemView(movie: movie)
+                        }
+                    }
+                }
+            )
+        }
         case .failed:
             return AnyView(Text("Failed").multilineTextAlignment(.center))
         }
         
     }
-    
-    private func getGrid(movies: [Movie]) -> AnyView {
-        let columnWidth = UIScreen.main.bounds.size.width / 2
-        let columns = [GridItem(.fixed(columnWidth)), GridItem(.fixed(columnWidth))]
-        return AnyView(
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 10) {
-                    ForEach(movies, id: \.self) { movie in
-                        MovieItemView(movie: movie)
-                    }
-                }
-            }
-        )
-    }
-    
+
 }
 
 extension ContentView {
